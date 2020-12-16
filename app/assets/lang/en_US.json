@@ -1,48 +1,48 @@
 {
     "html": {
-        "avatarOverlay": "Edit"
+        "avatarOverlay": "Modifier"
     },
     "js": {
         "login": {
             "error": {
-                "invalidValue": "* Invalid Value",
-                "requiredValue": "* Required",
+                "invalidValue": "* Valeur Incorrect",
+                "requiredValue": "* Requis",
                 "userMigrated": {
-                    "title": "Error During Login:<br>Invalid Credentials",
-                    "desc": "You've attempted to login with a migrated account. Try again using the account email as the username."
+                    "title": "Erreur durant la connexion:<br>Identifiants invalides",
+                    "desc": "vous avez essayé de vous connecter avec un compte migré. Veuillez vous connecter avec l'email a la place du nom"
                 },
                 "invalidCredentials": {
-                    "title": "Error During Login:<br>Invalid Credentials",
-                    "desc": "The email or password you've entered is incorrect. Please try again."
+                    "title": "Erreur durant la connexion:<br>Identifiants invalides",
+                    "desc": "L'email ou le mot de passe est incorrect . Veuillez retenter plus tard."
                 },
                 "rateLimit": {
-                    "title": "Error During Login:<br>Too Many Attempts",
-                    "desc": "There have been too many login attempts with this account recently. Please try again later."
+                    "title": "Erreur durant la connexion:<br>Trop d'essaie en peu de temps",
+                    "desc": "Vous avez essayée de vous connecter trop de fois en peu de temps. Merci de patienter avant de réessayer."
                 },
                 "noInternet": {
-                    "title": "Error During Login:<br>No Internet Connection",
-                    "desc": "You must be connected to the internet in order to login. Please connect and try again."
+                    "title": "Erreur durant la connexion:<br>Pas de connection internet",
+                    "desc": "Verifiez votre connexion !"
                 },
                 "authDown": {
-                    "title": "Error During Login:<br>Authentication Server Offline",
-                    "desc": "Mojang's authentication server is currently offline or unreachable. Please wait a bit and try again. You can check the status of the server on <a href=\"https://help.mojang.com/\">Mojang's help portal</a>."
+                    "title": "Erreur durant la connexion:<br>serveur d'authentification hors ligne",
+                    "desc": "Les serveur d'auth mojang sont indisponible !<a href=\"https://help.mojang.com/\">Portail d'aide Mojangs</a>."
                 },
                 "notPaid": {
-                    "title": "Error During Login:<br>Game Not Purchased",
-                    "desc": "The account you are trying to login with has not purchased a copy of Minecraft.<br>You may purchase a copy on <a href=\"https://minecraft.net/\">Minecraft.net</a>"
+                    "title": "Erreur durant la connexion:<br>Jeu non acheté",
+                    "desc": "le compte avec lequelle vous essayée de vous connectée n'a pas le jeu.<br>vous pouvée vous le procurée sur <a href=\"https://minecraft.net/\">Minecraft.net</a>"
                 },
                 "unknown": {
-                    "title": "Error During Login:<br>Unknown Error"
+                    "title": "Erreur durant la connexion:<br>Erreur Inconnu"
                 }
             },
-            "login": "LOGIN",
-            "loggingIn": "LOGGING IN",
-            "success": "SUCCESS",
-            "tryAgain": "Try Again"
+            "login": "CONNECTION",
+            "loggingIn": "CONNECTION EN COURS",
+            "success": "CONNECTÉ",
+            "tryAgain": "VEUILLEZ RÉESSAYER"
         },
         "landing": {
             "launch": {
-                "pleaseWait": "Please wait.."
+                "pleaseWait": "Patientée s'il vous plait..."
             }
         }
     }

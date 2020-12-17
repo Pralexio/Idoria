@@ -154,7 +154,7 @@ function updateSelectedServer(serv){
 server_selection_button.innerHTML = '\u2022 Loading..'
 server_selection_button.onclick = (e) => {
     e.target.blur()
-    toggleServerSelection(true)
+    toggleServerSelection(false)
 }
 
 // Update Mojang Status Color
